@@ -1,0 +1,284 @@
+.wovax-es-nav {
+	padding: 0;
+	border-bottom: 3px solid #3069B3;
+	margin: 0 0 1rem;
+}
+.wovax-es-nav > ul {
+	margin: 0 -1%;
+	padding: 0;
+	list-style-type: none;
+}
+.wovax-es-nav > ul > li {
+	margin: 0 1%;
+	padding: 0 0 30px;
+	list-style-type: none;
+	display: inline-block;
+	width: 18%;
+	position: relative;
+}
+.wovax-es-nav > ul > li.es-active:after {
+	content: '';
+	height: 8px;
+	background-color: #3069B3;
+	position: absolute;
+	bottom: 0;
+	left:0;
+	right: 0;
+	display: block;
+}
+.wovax-es-nav > ul > li > label {
+	display: block;
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: normal;
+	padding:1rem 2rem;
+	box-sizing: border-box;
+	background-color: #3069B3;
+	border-radius: 4px;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	width: 100%;
+	text-align: center;
+	line-height: 1rem;
+	cursor: pointer;
+}
+.wovax-es-nav > ul > li > label:hover {
+	background-color: #5287cc;
+}
+.wovax-es-nav > ul > li > input {
+	display: none;
+}
+article.wovax-es-sermon-card {
+	display: inline-block;
+	width: 23%;
+	vertical-align: top;
+	margin: 0 1% 1.5rem;
+	-webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.37);
+	-moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.37);
+	box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.37);
+	position: relative;
+}
+article.wovax-es-sermon-card > a {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 100%;
+	z-index: 3;
+}
+article.wovax-es-sermon-card .img-card {
+	padding-bottom: 50%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+article.wovax-es-sermon-card header h2 {
+	font-size: 1rem;
+	letter-spacing: 1px;
+	padding: 1rem;
+	margin: 0;
+	line-height: 1.5rem;
+}
+article.wovax-es-sermon-card footer {
+	font-size: 0.7rem;
+	letter-spacing: 1px;
+	padding: 0 1rem 1rem;
+}
+.wovax-es-results {
+	margin: 0 -1%;
+	padding: 2rem 0 3rem;
+}
+.wovax-es-results > footer {
+	padding: 2rem;
+	text-align: center;
+}
+.wovax-es-results > footer > a {
+	display: inline-block;
+	background-color: #777;
+	color: #fff;
+	border-radius: 6px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.1rem;
+	padding: 0.75rem 3rem;
+}
+.wovax-es-results > footer > a.es-inactive {
+	opacity: 0.3;
+	cursor: default;
+}
+ul.wovax-es-column {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+}
+ul.wovax-es-column > li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.wovax-es-column-set-4 { width: 25%;}
+.wovax-es-column-set-6 { width: 16.66%; }
+.wovax-es-column-set-8 { width: 12.5%; }
+.wovax-es-filters-scripture > div {
+	float: left;
+	width: 50%;
+	padding-left: 2%;
+	box-sizing: border-box;
+}
+.wovax-es-filters-scripture > div:first-child {
+	padding-right: 2%;
+	padding-left: 0;
+	border-right: 1px solid #eee;
+}
+.wovax-es-filters-scripture:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.wovax-es-filter-wrap-nav > a {
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	background-color: #fff;
+	position: relative;
+	z-index: 3;
+	top: 1px;
+	display: inline-block;
+	padding: 0.25rem 1.5rem;
+}
+.wovax-es-filter-wrap-nav > a.es-closed {
+	border-bottom: 1px solid #ccc;
+}
+.wovax-es-filter-wrap-nav > a:after {
+	content: '\f0d7';
+	font-family: fontAwesome;
+	margin-left: 1rem;
+}
+.wovax-es-filter-wrap-nav > a.es-closed:after {
+	content: '\f0d8';
+	font-family: fontAwesome;
+	margin-left: 1rem;
+}
+.wovax-es-applied-filter {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #555;
+	padding: 0 1rem;
+	font-size: 0.9rem;
+	position: absolute;
+	top: -9999rem;
+}
+.wovax-es-applied-filter.es-active {
+	position: relative;
+	top: 0;
+}
+.wovax-es-applied-filter:before {
+	content: '\f105';
+	font-family: fontAwesome;
+	margin-right: 0.5rem;
+}
+.wovax-es-applied-filter i {
+	margin-left: 0.5rem;
+	cursor: pointer;
+}
+.wovax-es-filters {
+	position: absolute;
+	top: -9999rem;
+}
+.wovax-es-filters.es-active {
+	position: relative;
+	top: 0;
+}
+.wovax-es-filters .wovax-es-filter-wrap {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	padding: 1rem 1.5rem;
+	box-sizing: border-box;
+}
+.wovax-es-filters h4 {
+	font-size: 1rem;
+	color: #555;
+}
+.wovax-es-filters .wovax-es-filter label {
+	display: block;
+	font-size: 0.9rem;
+	cursor: pointer;
+	padding-right: 1rem;
+}
+.wovax-es-filters .wovax-es-filter input {
+	display: none;
+}
+@media screen and (max-width: 1100px) {
+    .wovax-es-nav > ul > li > label {
+		font-size: 0.8rem;
+		padding: 1rem 1rem;
+	}
+	.wovax-es-filters .wovax-es-filter label {
+		font-size: 0.8rem;
+		padding-right: 0.5rem;
+	}
+	article.wovax-es-sermon-card {
+		width: 31.33%;
+	}
+}
+@media screen and (max-width: 950px) {
+   .wovax-es-filters-scripture > div {
+		float: none;
+		width: auto;
+		box-sizing: border-box;
+		padding: 1rem 0;
+		border-bottom: 1px solid #ddd;
+	}
+}
+@media screen and (max-width: 750px) {
+    .wovax-es-nav > ul > li {
+		width: 31.33%;
+	}
+	.wovax-es-nav > ul > li.es-active:after {
+		display: none;
+	}
+	.wovax-es-nav > ul > li.es-active > label {
+		background-color: #548dd6;
+	}
+	.wovax-es-column-set-6 {
+		width: 33.33%;
+	}
+	article.wovax-es-sermon-card {
+		width: 48%;
+	}
+}
+@media screen and (max-width: 600px) {
+    .wovax-es-column-set-4,
+	.wovax-es-column-set-6 {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 450px) {
+    .wovax-es-nav > ul > li {
+		width: 98%;
+		padding: 0 0 8px;
+	}
+	.wovax-es-nav > ul > li.es-active:after {
+		display: none;
+	}
+	.wovax-es-nav > ul > li.es-active > label {
+		background-color: #548dd6;
+	}
+	article.wovax-es-sermon-card {
+		width: 98%;
+	}
+}
+/*.wovax-es-results > footer > a:after {
+	content: '\f107';
+	font-family: fontAwesome;
+	font-size: 2rem;
+	line-height: 2rem;
+	color: #fff;
+	display: block;
+	text-align: center;
+}*/

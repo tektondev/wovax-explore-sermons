@@ -1,1 +1,0 @@
-# wovax-explore-sermons
